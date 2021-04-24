@@ -143,11 +143,11 @@ def active(id):
 
     if id1 == id2 ==id3 == "o" or id3 == id5 == id7=="o" or id1==id4==id7=="o" or id4 == id5 ==id6=="o" or id7 == id8 ==id9== "o" or id2 == id5 ==id8=="o" or id3 == id6 == id9 =="o":
         player = "o"
-        messagebox.showinfo(message="Game end," + player + " is winer")
+        messagebox.showinfo(message="Game end," + player + " is winner")
 
     if id1 == id2 ==id3 == "x" or id3 == id5 == id7=="x" or id1==id4==id7=="x" or id4 == id5 ==id6=="x" or id7 == id8 ==id9== "x" or id2 == id5 ==id8=="x" or id3 == id6 == id9 =="x":
         player = "x"
-        messagebox.showinfo(message="Game end," + player + " is winer")
+        messagebox.showinfo(message="Game end," + player + " is winner")
 
 window.mainloop()
 
